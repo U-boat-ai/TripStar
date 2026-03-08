@@ -34,38 +34,42 @@
   },
   "home": {
     "heroBadge": "AI 智能行程规划引擎",
-    "titleLine1": "探索世界的",
-    "titleLine2": "每一种可能",
+    "titleLine": "探索世界的每一种可能",
     "heroDesc": "告诉我你的目的地与偏好，AI 将为你定制一份独一无二的旅程方案",
+    "nav": {
+      "cta": "开始定制",
+      "fogOn": "雾气开启",
+      "fogOff": "雾气关闭"
+    },
     "step1": "目的地与日期",
     "step2": "偏好设置",
     "step3": "特殊需求",
-    "cityLabel": "🏙️ 目的地城市",
+    "cityLabel": "目的地城市",
     "cityPlaceholder": "输入城市名称，例如：杭州",
     "cityRequired": "请输入目的地城市",
-    "startDateLabel": "📅 出发日期",
+    "startDateLabel": "出发日期",
     "startDatePlaceholder": "选择出发日",
     "startDateRequired": "请选择开始日期",
-    "endDateLabel": "📅 返程日期",
+    "endDateLabel": "返程日期",
     "endDatePlaceholder": "选择返程日",
     "endDateRequired": "请选择结束日期",
-    "travelDaysLabel": "🗓️ 旅行天数",
+    "travelDaysLabel": "旅行天数",
     "travelDaysUnit": "天",
-    "transportationLabel": "🚀 交通方式",
+    "transportationLabel": "交通方式",
     "transportation": {
-      "public": "🚇 公共交通",
-      "drive": "🚗 自驾出行",
-      "walk": "🚶 步行探索",
-      "mixed": "🔀 混合模式"
+      "public": "公共交通",
+      "drive": "自驾出行",
+      "walk": "步行探索",
+      "mixed": "混合模式"
     },
-    "accommodationLabel": "🏨 住宿风格",
+    "accommodationLabel": "住宿风格",
     "accommodation": {
-      "budget": "💰 经济实惠",
-      "comfort": "🏨 舒适商务",
-      "luxury": "⭐ 奢华度假",
-      "homestay": "🏡 特色民宿"
+      "budget": "经济实惠",
+      "comfort": "舒适商务",
+      "luxury": "奢华度假",
+      "homestay": "特色民宿"
     },
-    "interestsLabel": "💫 旅行兴趣",
+    "interestsLabel": "旅行兴趣",
     "interests": {
       "history": "历史文化",
       "nature": "自然风光",
@@ -79,11 +83,11 @@
     "submitting": "AI 正在规划中…",
     "loading": {
       "initializing": "正在初始化...",
-      "searchingAttractions": "🔍 正在搜索景点...",
-      "queryingWeather": "🌤️ 正在查询天气...",
-      "recommendingHotels": "🏨 正在推荐酒店...",
-      "generatingPlan": "📋 正在生成行程计划...",
-      "done": "✅ 完成!"
+      "searchingAttractions": "正在搜索景点...",
+      "queryingWeather": "正在查询天气...",
+      "recommendingHotels": "正在推荐酒店...",
+      "generatingPlan": "正在生成行程计划...",
+      "done": "完成！"
     },
     "messages": {
       "travelDaysTooLong": "旅行天数不能超过 30 天",

@@ -2,8 +2,9 @@ import { createApp } from 'vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import Antd from 'ant-design-vue'
 import 'ant-design-vue/dist/reset.css'
+import './styles/global.css'
 import App from './App.vue'
-import Home from './views/Home.vue'
+import Landing from './views/Landing.vue'
 import Result from './views/Result.vue'
 import { i18n } from './i18n'
 
@@ -12,8 +13,8 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'Home',
-      component: Home
+      name: 'Landing',
+      component: Landing
     },
     {
       path: '/result',

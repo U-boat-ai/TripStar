@@ -34,38 +34,42 @@
   },
   "home": {
     "heroBadge": "AI 旅行プランニングエンジン",
-    "titleLine1": "世界を巡る",
-    "titleLine2": "あらゆる可能性へ",
+    "titleLine": "世界を巡るあらゆる可能性へ",
     "heroDesc": "目的地と好みを教えてください。AI があなた専用の旅程を作成します",
+    "nav": {
+      "cta": "プランを始める",
+      "fogOn": "霧オン",
+      "fogOff": "霧オフ"
+    },
     "step1": "目的地と日程",
     "step2": "希望設定",
     "step3": "特別な要望",
-    "cityLabel": "🏙️ 目的地の都市",
+    "cityLabel": "目的地の都市",
     "cityPlaceholder": "都市名を入力（例：杭州）",
     "cityRequired": "目的地の都市を入力してください",
-    "startDateLabel": "📅 出発日",
+    "startDateLabel": "出発日",
     "startDatePlaceholder": "出発日を選択",
     "startDateRequired": "開始日を選択してください",
-    "endDateLabel": "📅 帰着日",
+    "endDateLabel": "帰着日",
     "endDatePlaceholder": "帰着日を選択",
     "endDateRequired": "終了日を選択してください",
-    "travelDaysLabel": "🗓️ 旅行日数",
+    "travelDaysLabel": "旅行日数",
     "travelDaysUnit": "日",
-    "transportationLabel": "🚀 移動手段",
+    "transportationLabel": "移動手段",
     "transportation": {
-      "public": "🚇 公共交通",
-      "drive": "🚗 車移動",
-      "walk": "🚶 徒歩中心",
-      "mixed": "🔀 ミックス"
+      "public": "公共交通",
+      "drive": "車移動",
+      "walk": "徒歩中心",
+      "mixed": "ミックス"
     },
-    "accommodationLabel": "🏨 宿泊スタイル",
+    "accommodationLabel": "宿泊スタイル",
     "accommodation": {
-      "budget": "💰 コスパ重視",
-      "comfort": "🏨 快適ビジネス",
-      "luxury": "⭐ ラグジュアリー",
-      "homestay": "🏡 民宿"
+      "budget": "コスパ重視",
+      "comfort": "快適ビジネス",
+      "luxury": "ラグジュアリー",
+      "homestay": "民宿"
     },
-    "interestsLabel": "💫 旅行の興味",
+    "interestsLabel": "旅行の興味",
     "interests": {
       "history": "歴史・文化",
       "nature": "自然",
@@ -79,11 +83,11 @@
     "submitting": "AI がプランを作成中…",
     "loading": {
       "initializing": "初期化中...",
-      "searchingAttractions": "🔍 観光地を検索中...",
-      "queryingWeather": "🌤️ 天気を確認中...",
-      "recommendingHotels": "🏨 ホテルを推薦中...",
-      "generatingPlan": "📋 旅程を生成中...",
-      "done": "✅ 完了!"
+      "searchingAttractions": "観光地を検索中...",
+      "queryingWeather": "天気を確認中...",
+      "recommendingHotels": "ホテルを推薦中...",
+      "generatingPlan": "旅程を生成中...",
+      "done": "完了！"
     },
     "messages": {
       "travelDaysTooLong": "旅行日数は 30 日以内にしてください",

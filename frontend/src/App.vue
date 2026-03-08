@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <a-layout style="min-height: 100vh">
-      <a-layout-header class="app-header">
+      <a-layout-header v-if="!isLandingRoute" class="app-header">
         <div class="header-inner">
           <div class="header-brand" @click="$router.push('/')">
             <div class="brand-logo">
@@ -34,7 +34,7 @@
       <a-layout-content style="padding: 0">
         <router-view />
       </a-layout-content>
-      <a-layout-footer class="app-footer">
+      <a-layout-footer v-if="!isLandingRoute" class="app-footer">
         <div class="footer-inner">
           <div class="footer-left">
             <span class="footer-brand">{{ t('app.footerBrand') }}</span>
@@ -50,12 +50,15 @@
 </template>
 
 <script setup lang="ts">
-import { watch } from 'vue'
+import { computed, watch } from 'vue'
+import { useRoute } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import { setAppLocale, type AppLocale } from '@/i18n'
 
 const { t, locale } = useI18n()
+const route = useRoute()
 const year = new Date().getFullYear()
+const isLandingRoute = computed(() => route.name === 'Landing')
 
 watch(
   locale,

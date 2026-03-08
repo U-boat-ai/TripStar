@@ -34,38 +34,42 @@
   },
   "home": {
     "heroBadge": "AI Intelligent Itinerary Engine",
-    "titleLine1": "Explore the world,",
-    "titleLine2": "unlock every possibility",
+    "titleLine": "Explore the world,unlock every possibility",
     "heroDesc": "Tell me your destination and preferences, and AI will craft a unique travel plan for you",
+    "nav": {
+      "cta": "Start Planning",
+      "fogOn": "Fog On",
+      "fogOff": "Fog Off"
+    },
     "step1": "Destination & Dates",
     "step2": "Preferences",
     "step3": "Special Needs",
-    "cityLabel": "🏙️ Destination City",
+    "cityLabel": "Destination City",
     "cityPlaceholder": "Enter a city, e.g. Hangzhou",
     "cityRequired": "Please enter a destination city",
-    "startDateLabel": "📅 Departure Date",
+    "startDateLabel": "Departure Date",
     "startDatePlaceholder": "Select departure date",
     "startDateRequired": "Please select a start date",
-    "endDateLabel": "📅 Return Date",
+    "endDateLabel": "Return Date",
     "endDatePlaceholder": "Select return date",
     "endDateRequired": "Please select an end date",
-    "travelDaysLabel": "🗓️ Trip Duration",
+    "travelDaysLabel": "Trip Duration",
     "travelDaysUnit": "days",
-    "transportationLabel": "🚀 Transportation",
+    "transportationLabel": "Transportation",
     "transportation": {
-      "public": "🚇 Public Transit",
-      "drive": "🚗 Self-drive",
-      "walk": "🚶 Walking",
-      "mixed": "🔀 Mixed Mode"
+      "public": "Public Transit",
+      "drive": "Self-drive",
+      "walk": "Walking",
+      "mixed": "Mixed Mode"
     },
-    "accommodationLabel": "🏨 Accommodation Style",
+    "accommodationLabel": "Accommodation Style",
     "accommodation": {
-      "budget": "💰 Budget Friendly",
-      "comfort": "🏨 Comfort Business",
-      "luxury": "⭐ Luxury Resort",
-      "homestay": "🏡 Homestay"
+      "budget": "Budget Friendly",
+      "comfort": "Comfort Business",
+      "luxury": "Luxury Resort",
+      "homestay": "Homestay"
     },
-    "interestsLabel": "💫 Travel Interests",
+    "interestsLabel": "Travel Interests",
     "interests": {
       "history": "History & Culture",
       "nature": "Nature",
@@ -79,11 +83,11 @@
     "submitting": "AI is planning...",
     "loading": {
       "initializing": "Initializing...",
-      "searchingAttractions": "🔍 Searching attractions...",
-      "queryingWeather": "🌤️ Checking weather...",
-      "recommendingHotels": "🏨 Recommending hotels...",
-      "generatingPlan": "📋 Generating itinerary...",
-      "done": "✅ Done!"
+      "searchingAttractions": "Searching attractions...",
+      "queryingWeather": "Checking weather...",
+      "recommendingHotels": "Recommending hotels...",
+      "generatingPlan": "Generating itinerary...",
+      "done": "Done!"
     },
     "messages": {
       "travelDaysTooLong": "Trip duration cannot exceed 30 days",
